@@ -1,8 +1,5 @@
 // Code your solution in this file!
-const returnFirstTwoDrivers = function firstTwo([]){
-    return (['Antonia', 'Nuru']);
-}
+const returnFirstTwoDrivers = array => array.slice(0,2)
 
-const returnLastTwoDrivers = function lastTwo([]){
-    return (['Amari', 'Mo']);
-}
+const returnLastTwoDrivers = array => array.slice(-2)
+
